@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Frontend Portfolio</title>
+  <link rel="stylesheet" href="project.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="nav_s">
+        <div class="navsss">
+            <h2>Aparna</h2>
+        </div>
+        <div class="nav_sr">
+            <ul>
+                <li><a href="sample.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skill.html">Skill</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="men_sssss">
+            <svg  onclick="drop()" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+        </div>
+    </div>
+
+     <div class="cat_drop">
+        <div class="cattt"><a href="sample.html">Home</a></div>
+        <div class="cattt"><a href="about.html">About</a></div>
+        <div class="cattt"><a href="skill.html">Skill</a></div>
+        <div class="cattt"><a href="project.html">Project</a></div>
+        <div class="cattt"><a href="contact.html">Contact</a></div>
+    </div>
+
+    <script>
+        let a = document.getElementsByClassName('cat_drop')[0]
+        function drop() {
+            if (a.style.display === 'block') {
+                a.style.display = 'none'
+            }
+            else {
+                a.style.display = 'block'
+            }
+        }
+    </script>
+<div class="header">
+  <h1></h1>
+  <p>Frontend Developer (HTML & CSS)</p>
+</div>
+
+<div class="section">
+  <h2>About Me</h2>
+  <p>I design frontend UI pages using HTML and CSS.</p>
+</div>
+
+<div class="section">
+  <h2>My Projects</h2>
+
+  <div class="cards">
+    <div class="card">
+      <img src="instagram.png">
+      <p>Instagram UI Clone</p>
+    </div>
+
+    <div class="card">
+      <img src="google.png">
+      <p>Google Homepage Clone</p>
+    </div>
+
+    <div class="card">
+      <img src="pf.png">
+      <p>Portfolio Website</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  © 2026 Aparna | Frontend Developer
+  </div>
+
+
+</body>
+</html>

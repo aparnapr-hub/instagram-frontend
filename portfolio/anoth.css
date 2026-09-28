@@ -1,0 +1,160 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#f7f7f7;
+}
+
+/* ================= NAVBAR ================= */
+.navbar{
+  width:100%;
+  background:#5f6b8a;
+  padding:15px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:relative;
+}
+
+.logo{
+  color:white;
+  font-size:24px;
+  font-weight:bold;
+}
+
+#menu-toggle{
+  display:none;
+}
+
+.menu-icon{
+  display:none;
+  font-size:26px;
+  color:white;
+  cursor:pointer;
+}
+
+.nav-links{
+  list-style:none;
+  display:flex;
+}
+
+.nav-links li{
+  margin-left:25px;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:white;
+  font-size:16px;
+}
+
+/* ================= HERO ================= */
+.hero{
+  min-height:90vh;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding:40px;
+}
+
+.circle{
+  width:300px;
+  height:300px;
+  background:#5f6b8a;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.circle img{
+  width:200px;
+  border-radius:50%;
+}
+
+.hero-content h3{
+  letter-spacing:4px;
+  color:#5f6b8a;
+}
+
+.hero-content h1{
+  font-size:42px;
+}
+
+.hero-content h1 span{
+  color:#5f6b8a;
+}
+
+.hero-content h2{
+  font-size:28px;
+  color:#5f6b8a;
+  margin:10px 0 20px;
+}
+
+.social-btns a{
+  border:1px solid #5f6b8a;
+  padding:8px 18px;
+  border-radius:20px;
+  margin-right:10px;
+  text-decoration:none;
+  color:#5f6b8a;
+  font-size:14px;
+}
+
+.cv-btn{
+  display:block;
+  margin-top:20px;
+  padding:12px 30px;
+  border:none;
+  border-radius:30px;
+  background:#5f6b8a;
+  color:white;
+  cursor:pointer;
+  font-size:16px;
+}
+
+/* ================= MOBILE ================= */
+@media(max-width:768px){
+
+  .menu-icon{
+    display:block;
+  }
+
+  .nav-links{
+    position:absolute;
+    top:70px;
+    left:0;
+    width:100%;
+    background:#5f6b8a;
+    flex-direction:column;
+    align-items:center;
+    display:none;
+  }
+
+  .nav-links li{
+    padding:15px 0;
+  }
+
+  #menu-toggle:checked ~ .nav-links{
+    display:flex;
+  }
+
+  .hero{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .circle{
+    width:250px;
+    height:250px;
+    margin-bottom:20px;
+  }
+
+  .circle img{
+    width:170px;
+  }
+}

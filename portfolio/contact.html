@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sample.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+
+<div class="nav_s">
+        <div class="navsss">
+            <h2>Aparna</h2>
+        </div>
+        <div class="nav_sr">
+            <ul>
+                <li><a href="sample.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skill.html">Skill</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="men_sssss">
+            <svg  onclick="drop()" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+        </div>
+    </div>
+
+     <div class="cat_drop">
+        <div class="cattt"><a href="sample.html">Home</a></div>
+        <div class="cattt"><a href="about.html">About</a></div>
+        <div class="cattt"><a href="skill.html">Skill</a></div>
+        <div class="cattt"><a href="project.html">Project</a></div>
+        <div class="cattt"><a href="contact.html">Contact</a></div>
+    </div>
+
+    <script>
+        let a = document.getElementsByClassName('cat_drop')[0]
+        function drop() {
+            if (a.style.display === 'block') {
+                a.style.display = 'none'
+            }
+            else {
+                a.style.display = 'block'
+            }
+        }
+    </script>
+<!-- ..........contact............. -->
+
+<div class="tr">
+            <div class="contact">
+                <h1>Contact Me</h1>
+                <div class="phone">
+                    <input type="text" placeholder="  Full Name">
+                </div>
+                <div class="null"></div>
+                <div class="email">
+                    <input type="text" placeholder="  Email Address">
+                </div>
+                <div class="null"></div>
+                <div class="name">
+                     <input type="number" placeholder="  Phone Number">
+                </div>
+
+                <div class="null"></div>
+                <div class="msg">
+                       <textarea name="" id="" placeholder=" Your Msg"></textarea>
+                </div>
+                <div class="null"></div>
+                <button class="sd">Send Message</button>
+            </div>
+
+
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+body{
+    font-family: sans-serif;
+}
+
+
+/* Skills */
+.skills {
+    /* padding: 60px 20px; */
+    text-align: center;
+    width: 99.70%;
+    height: 535px;
+    /* border: 1px solid red; */
+}
+
+.skills h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skill-card {
+    background: #f3f4f6;
+    padding: 30px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.skill-card i {
+    font-size: 50px;
+    color: #5d6886;
+    margin-bottom: 15px;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+     body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav_s{
+    width: 99.90%;
+    height: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #5d6886;
+}
+
+.navsss{
+    width: 230px;
+    height: 60px;
+    /* border: 2px solid rgb(87, 164, 31); */
+    /* margin: auto; */
+}
+.navsss h2{
+    /* margin: auto; */
+        margin-left: 32px;
+    margin-top: 11px;
+    color: #fff;
+}
+.nav_sr{
+    width: 620px;
+    height: 60px;
+    /* border: 1px solid blueviolet; */
+    /* display: flex; */
+}
+.nav_sr ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav_sr li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav_sr li a:hover{
+    text-decoration: underline;
+}
+.men_sssss{
+    width: 40px;
+    height: 60px;
+    border: 1px solid greenyellow;
+    position: fixed;
+    right: 0;
+    display: none;
+}
+.men_sssss svg{
+    display: none;
+    width: 42px;
+    height: 29px;
+    margin-top: 15px;
+    color: #fff;
+}
+@media screen and (max-width:768px) {
+    .nav_sr{
+        display: none;
+    }
+    .men_sssss{
+        display: block;
+    }
+    .men_sssss svg{
+        display: block;
+    }
+    .navsss{
+        position: fixed;
+        left: 0;
+    }
+    .cat_drop{
+        display: block;
+    }
+    .cattt{
+        display: block;
+    }
+    
+}
+.cat_drop{
+    width: 134px;
+    height: 207px;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    position: fixed;
+    right: 0;
+    top: 58px;
+    background-color: #5d6886;
+    display:none;
+}
+.cattt{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    /* display: none; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cattt a{
+    text-decoration: none;
+    color: white;
+}

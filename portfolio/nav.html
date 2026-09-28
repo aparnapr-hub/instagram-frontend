@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            width: 99.90%;
+            height: 70px;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: #5d6886;
+        }
+        .nav_l{
+            width: 150px;
+            height: 60px;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav_l p{
+            font-size: 30px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .nav_r{
+            height: 60px;
+            width: 500px;
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav_r ul{
+           list-style: none;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap: 35px;
+        }
+        .nav_r li a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .nav_r a:hover{
+            text-decoration: underline;
+        }
+        @media screen and(max-width:768px) {
+            .nav_r{
+                display: none;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+   <div class="nav">
+    <div class="nav_l">
+        <p>Parna</p>
+    </div>
+    <div class="nav_r">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Skill</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+   </div> 
+</body>
+</html>
