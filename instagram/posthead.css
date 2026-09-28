@@ -1,0 +1,76 @@
+.ph_div{
+    max-width: 470px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid black;
+}
+
+.posthead_div{
+    width: 446px;
+    height: 34px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile_div{
+    width: 31px;
+    height: 31px;
+    border: 1px solid red;
+}
+.name_div{
+    width: 130px;
+    height: 18px;
+    border: 1px solid black;
+    margin-right: 249px;
+    display: flex;
+    /* align-items: center; */
+}
+.threedot_div{
+    width: 24px;
+    height: 24px;
+    border: 1px solid red;
+}
+.profile_div img{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+}
+.un{
+    width: 100px;
+    height: 18px;
+    border: 1px solid red;
+}
+.un b{
+    font-size: 14px;
+}
+.bluetick{
+    width: 12px;
+    height: 12px;
+    border: 1px solid red;
+}
+.hr{
+    width: 17.67px;
+    height: 18px;
+    border: 1px solid red;
+}
+
+.hr p{
+    font-size: 14px;
+    margin-top: 2px;
+    color: #6A717A;
+}
+.point{
+    width: 6px;
+    height: 18px;
+    border: 1px solid red;
+}
+.point p{
+    margin-top: -17px;
+        font-size: 32px;
+      color: #6A717A;
+}
+..threedot_div{
+    
+}

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TOPBAR */
+.topbar {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #ccc;
+  background: linear-gradient(90deg, #ff00aa, #ff0080);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 15px;
+}
+
+/* LOGO */
+.logo {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* SEARCH */
+.search {
+  width: 400px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+/* search icon */
+.search-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+/* input */
+.search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* RIGHT ICONS */
+.icons {
+  width: 50px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HEART SVG */
+.icon {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+/* 🔥 768px RESPONSIVE */
+@media screen and (max-width: 768px) {
+
+  .search {
+    width: 220px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* 🔥 MOBILE */
+@media screen and (max-width: 480px) {
+
+  .search {
+    width: 160px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+}
